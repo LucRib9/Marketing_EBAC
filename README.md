@@ -48,7 +48,7 @@ o que pode ser confirmado no arquivo requirements.txt.
 * Caso queira apenas visualizar o site desenvolvido neste projeto, acesse o link presente na seção "Link para a aplicação (LIVE)" logo acima.
 * Por outro lado, para editar o código abra o arquivo "app_7.py" pelo editor presente no seu SO.
 * Em relação aos dados, caso queira alterá-los, abra o arquivo "bank-additional.csv" pelo office do seu SO.
-* Por último, para acessar o site desenvolvido pelo código diretamente, abra o terminal do seu sistema (Git Bash, CMD do Windows ou Conda)
+* Para acessar o site desenvolvido pelo código diretamente, abra o terminal do seu sistema (Git Bash, CMD do Windows ou Conda)
   e digite os seguintes comandos:
   
 ```
@@ -56,16 +56,30 @@ cd [NOME DA PASTA NA QUAL O CÓDIGO FOI SALVO]
 python -m streamlit run app_7.py
 ```
 
+* Ao entrar no site, é necessário carregar os dados do banco. Isto pode ser feito de duas formas:
+  1. Arrastando o arquivo csv para a área "Drag and drop files here";
+  2. Clicando em "Browse files" e selecione a planilha csv na pasta em que ela foi salva.  
+
+* Com o carregamento dos dados, aparecerá na tela principal duas tabelas, sendo uma com os dados originais e a outra
+* com os dados filtrados. Abaixo delas encontram-se as proporções de pessoas que aceitaram (ou não) a oferta do banco
+* em cada conjunto de dados, e os gráficos das proporções.
+* A filtragem dos dados é feita atraavés dos filtros abaixo da área "Drag and drop files here", sendo eles:
+  - O tipo de gráficos desejado, podendo ser "barras" ou "pizza";
+  - Intervalo das idades dos clientes, sendo regulado pelo scrollbar "idade";
+  - Seleção das características mencionadas em "Descrição do Projeto", podendo ser todas em cada uma (padrão),
+    ou uma única resposta ou conjunto delas para cada característica dos clientes.
+* Todas as tabelas mencionadas acima podem ser baixada por meio dos botões "download" presentes abaixo de cada uma.
+
 ## Ajuda
 
-Por enquanto, os gráficos não estão se modificando de acordo com a seleção dos filtros. Em breve isto será corrigido. 
+Caso restem dúvidas sobre o funcionamento do projeto, entre em contato com o autor. 
 
 ## Autores
 
 Nomes dos desenvolvedores do projeto e informação para entrar em contato.
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
+Lucas Ribeiro
+[@LucasRibeiro](www.linkedin.com/in/lucas-data-science)
 
 ## Histórico de versões.
 
